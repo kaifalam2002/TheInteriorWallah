@@ -1,0 +1,11 @@
+# robots.txt for The Interior Wallah
+# This file tells search engines which pages to crawl
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://theinteriorwallah.com/sitemap.xml
+
+# Disallow crawling of form submission endpoints
+Disallow: /thank-you.html
